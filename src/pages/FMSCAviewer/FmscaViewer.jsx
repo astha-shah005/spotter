@@ -80,7 +80,7 @@ const FmscaViewer = () => {
       GetAllExcleSheetData()
     },[])
 
-    if (loading) return <p style={{textAlign:'center', padding:'20px'}}>Fetching Data From Excle Sheet...</p>;
+    if (loading) return <p style={{textAlign:'center', padding:'20px'}}>Fetching Data From Excel Sheet...</p>;
     if (error) return <p style={{textAlign:'center', padding:'20px'}}>Error: {error.message}</p>;
     return (
         <Box className='container'>
