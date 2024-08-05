@@ -1,0 +1,10 @@
+
+.MuiDataGrid-columnHeaders {
+    background-color: aqua;
+}
+.MuiDataGrid-columnHeaders div{
+    font-weight: 600;
+}
+.MuiDataGrid-cell--textLeft {
+    text-align: center!important;
+}
